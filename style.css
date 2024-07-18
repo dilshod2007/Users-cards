@@ -1,0 +1,50 @@
+body{
+    background: url(./istockphoto-1254474165-612x612.webp);
+    background-size: cover;
+    padding: 50px 50px;
+}
+
+
+#result{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 40px;
+
+}
+.card {
+padding: 10px 20px;
+text-align: center;
+box-shadow: 0px 0px 10px 0px  gray;
+border-radius: 10px;
+color: bisque;
+
+}
+.card button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: brown;
+    border: none;
+    border-radius: 10px;
+    color: bisque;
+}
+
+  
+
+  .card {
+   
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    border: 1px solid #f2f8f9;
+  
+    
+    }
+    .card:hover {
+        transition: all 0.2s ease-out;
+        box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+        top: -4px;
+        border: 1px solid #cccccc;
+  }
+  .card:hover {
+    transform: scale(1.1);
+  }
